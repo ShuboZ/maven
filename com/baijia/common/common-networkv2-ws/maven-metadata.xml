@@ -3,7 +3,7 @@
   <groupId>com.baijia.common</groupId>
   <artifactId>common-networkv2-ws</artifactId>
   <versioning>
-    <release>1.6.1</release>
+    <release>1.6.2</release>
     <versions>
       <version>1.3.0</version>
       <version>1.4.0</version>
@@ -19,7 +19,8 @@
       <version>1.5.9</version>
       <version>1.6.0</version>
       <version>1.6.1</version>
+      <version>1.6.2</version>
     </versions>
-    <lastUpdated>20160905062221</lastUpdated>
+    <lastUpdated>20160907033035</lastUpdated>
   </versioning>
 </metadata>
