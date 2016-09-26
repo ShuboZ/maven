@@ -35,15 +35,15 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>CommonNetworkV2</groupId>
-      <artifactId>common-networkv2</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>io.reactivex</groupId>
       <artifactId>rxjava</artifactId>
       <version>1.1.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.baijia.common</groupId>
+      <artifactId>common-networkv2</artifactId>
+      <version>1.6.3</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
