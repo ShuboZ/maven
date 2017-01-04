@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.baijia.player</groupId>
+  <artifactId>video-playback</artifactId>
+  <versioning>
+    <release>0.0.1-snapshot</release>
+    <versions>
+      <version>0.0.1-snapshot</version>
+    </versions>
+    <lastUpdated>20170104093643</lastUpdated>
+  </versioning>
+</metadata>
