@@ -3,11 +3,12 @@
   <groupId>com.baijia.player</groupId>
   <artifactId>video-playback</artifactId>
   <versioning>
-    <release>0.0.2-snapshot</release>
+    <release>0.0.3-snapshot</release>
     <versions>
       <version>0.0.1-snapshot</version>
       <version>0.0.2-snapshot</version>
+      <version>0.0.3-snapshot</version>
     </versions>
-    <lastUpdated>20170110060757</lastUpdated>
+    <lastUpdated>20170113054716</lastUpdated>
   </versioning>
 </metadata>
