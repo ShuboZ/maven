@@ -43,7 +43,7 @@
     <dependency>
       <groupId>com.baijia.player</groupId>
       <artifactId>avsdk-mediaplayer</artifactId>
-      <version>1.2.21</version>
+      <version>1.2.23</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
