@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.baijia.player</groupId>
   <artifactId>avsdk-mediaplayer</artifactId>
-  <version>1.2.25</version>
+  <version>1.2.26</version>
   <packaging>aar</packaging>
   <name>BaijiaAvsdkMediaplayer</name>
   <description>Baijiaäºå¬å±åº</description>
