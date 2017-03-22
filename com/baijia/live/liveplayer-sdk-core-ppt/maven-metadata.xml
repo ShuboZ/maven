@@ -3,7 +3,7 @@
   <groupId>com.baijia.live</groupId>
   <artifactId>liveplayer-sdk-core-ppt</artifactId>
   <versioning>
-    <release>0.1.0-snapshot</release>
+    <release>0.1.1-snapshot</release>
     <versions>
       <version>0.0.1-snapshot</version>
       <version>0.0.2-snapshot</version>
@@ -15,7 +15,8 @@
       <version>0.0.8</version>
       <version>0.0.9</version>
       <version>0.1.0-snapshot</version>
+      <version>0.1.1-snapshot</version>
     </versions>
-    <lastUpdated>20170314100149</lastUpdated>
+    <lastUpdated>20170322095242</lastUpdated>
   </versioning>
 </metadata>
