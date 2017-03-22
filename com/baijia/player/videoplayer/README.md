@@ -61,7 +61,7 @@ playerView.setOnVideoPlayerListener(new BJPlayerView.OnVideoPlayerListener() {
   public void onPlayCompletion(BJPlayerView playerView, VideoItem item, SectionItem nextSection) {
       if (nextSection != null) {
            // play next section
-           playerView.setVideoId(nextSection.serialNumber, nextSection.videoId, "", 0);
+           playerView.setVideoId(nextSection.videoId, "theToken");
            playerView.playVideo();
       }
  }
@@ -155,8 +155,9 @@ playerView.initPartner(long partnerId, int deploy);
 * <p>设置视频源</p>
 *
 * @param videoId   视频 id
+* @param token     视频的token
 */
-playerView.setVideoId(long videoId);
+playerView.setVideoId(long videoId, String token);
 ```
 
 ```java
@@ -164,8 +165,9 @@ playerView.setVideoId(long videoId);
 *  <p>设置视频源</p>
 * @param sectioNid 视频集 Id
 * @param videoId 视频 id
+* @param token   视频的token
 */
-playerView.setVideoId(long sectionId, long videoId);
+playerView.setVideoId(long sectionId, long videoId, String token);
 ```
 
 ### 4.1  设置视频集
