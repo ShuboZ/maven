@@ -3,7 +3,7 @@
   <groupId>com.baijia.player</groupId>
   <artifactId>avsdk-mediaplayer</artifactId>
   <versioning>
-    <release>1.2.47</release>
+    <release>1.2.48</release>
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
@@ -55,7 +55,8 @@
       <version>1.2.45</version>
       <version>1.2.46</version>
       <version>1.2.47</version>
+      <version>1.2.48</version>
     </versions>
-    <lastUpdated>20170328210040</lastUpdated>
+    <lastUpdated>20170328134121</lastUpdated>
   </versioning>
 </metadata>
