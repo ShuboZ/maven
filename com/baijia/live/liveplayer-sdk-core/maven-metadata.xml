@@ -3,7 +3,7 @@
   <groupId>com.baijia.live</groupId>
   <artifactId>liveplayer-sdk-core</artifactId>
   <versioning>
-    <release>0.1.9-snapshot</release>
+    <release>0.2.0-snapshot</release>
     <versions>
       <version>0.0.1-snapshot</version>
       <version>0.0.2-snapshot</version>
@@ -24,7 +24,8 @@
       <version>0.1.7-snapshot</version>
       <version>0.1.8-snapshot</version>
       <version>0.1.9-snapshot</version>
+      <version>0.2.0-snapshot</version>
     </versions>
-    <lastUpdated>20170314123700</lastUpdated>
+    <lastUpdated>20170324095724</lastUpdated>
   </versioning>
 </metadata>

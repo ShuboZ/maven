@@ -27,20 +27,16 @@ dependencies {
   app:top_controller="@layout/bjplayer_layout_top_controller"
   app:bottom_controller="@layout/bjplayer_layout_bottom_controller"
   app:center_controller="@layout/bjplayer_layout_center_controller"
-  app:aspect_ratio="fit_parent_16_9"
-  app:auto_play="true"
-  app:player_type="bj_cloud">
+  app:aspect_ratio="fit_parent_16_9">
 </com.baijiahulian.player.BJPlayerView>
 
 ```
 
 #### 以下配置均为可选， 不设置即使用默认值
 - a) aspect_ratio: 播放窗口宽高比， fit_parent_16_9 表示适配布局为 16:9
-- b) player_type: bj_cloud 表示使用百家云私有播放器
-- c) auto_play: true 表示视频加载完成后自动开始播放
-- d) top_controller: 视频播放窗口顶部控制布局 
-- e) bottom_controller: 视频播放窗口底部控制布局 
-- f) center_controller: 视频播放窗口中部控制布局
+- b) top_controller: 视频播放窗口顶部控制布局 
+- c) bottom_controller: 视频播放窗口底部控制布局 
+- d) center_controller: 视频播放窗口中部控制布局
 
 
 
@@ -65,7 +61,7 @@ playerView.setOnVideoPlayerListener(new BJPlayerView.OnVideoPlayerListener() {
   public void onPlayCompletion(BJPlayerView playerView, VideoItem item, SectionItem nextSection) {
       if (nextSection != null) {
            // play next section
-           playerView.setVideoId(nextSection.serialNumber, nextSection.videoId, "", 0);
+           playerView.setVideoId(nextSection.videoId, "theToken");
            playerView.playVideo();
       }
  }
@@ -159,8 +155,9 @@ playerView.initPartner(long partnerId, int deploy);
 * <p>设置视频源</p>
 *
 * @param videoId   视频 id
+* @param token     视频的token
 */
-playerView.setVideoId(long videoId);
+playerView.setVideoId(long videoId, String token);
 ```
 
 ```java
@@ -168,8 +165,9 @@ playerView.setVideoId(long videoId);
 *  <p>设置视频源</p>
 * @param sectioNid 视频集 Id
 * @param videoId 视频 id
+* @param token   视频的token
 */
-playerView.setVideoId(long sectionId, long videoId);
+playerView.setVideoId(long sectionId, long videoId, String token);
 ```
 
 ### 4.1  设置视频集
