@@ -3,7 +3,7 @@
   <groupId>com.baijia.player</groupId>
   <artifactId>videoplayer</artifactId>
   <versioning>
-    <release>1.3.22(bj-armv7)</release>
+    <release>1.3.23(armv7)</release>
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
@@ -30,7 +30,8 @@
       <version>1.3.19</version>
       <version>1.3.20(armv5+armv7)</version>
       <version>1.3.22(bj-armv7)</version>
+      <version>1.3.23(armv7)</version>
     </versions>
-    <lastUpdated>20170411032721</lastUpdated>
+    <lastUpdated>20170414091028</lastUpdated>
   </versioning>
 </metadata>
